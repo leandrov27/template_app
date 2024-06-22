@@ -12,14 +12,13 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 
 //~ theme
-import { ThemeProvider } from '@/theme/ThemeProvider';
+import { ThemeProvider } from './src/theme/ThemeProvider';
 
 //~ constants
-import { FONTS } from '@/constants/fonts';
+import { FONTS } from './src/constants/fonts';
 
 //~ navigation
-import AppNavigation from '@/navigation/AppNavigation';
-
+import AppNavigation from './src/navigation/AppNavigation';
 
 //* ////////////////////////////////////////////////////////////////////////////
 
